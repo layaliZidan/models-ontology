@@ -1,1 +1,814 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#"
+     xml:base="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Model"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Academic_figures"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Business"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cultural_figures"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Goverment_officials"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Media"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Public_figures"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Religious_figures"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Science"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sports"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Model"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Actors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ambassadors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Anchors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Architecture"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Artists"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Athelets"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Bands"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Banking"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Businessmen"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cartoonists"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Charity_supports"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Christianity"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Comedians"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Critics"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Diplomates"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Directors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Doctors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Economics"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Editors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Enterpreneurs"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Historians"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Islam"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Journalists"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Law"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ministers"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Novelists"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Poets"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Prime_ministers"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Professors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Reporters"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Representatives"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Scientests"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Singer_musicians"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Stage_and_screen"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Writers"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#innovators"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#instructors"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasSector"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#intellectual"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#hasName">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Model"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Academic_figures -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Academic_figures">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Actors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Actors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Academic_figures"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Business"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cultural_figures"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Goverment_officials"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Media"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Public_figures"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Religious_figures"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Science"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sports"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ambassadors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ambassadors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Anchors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Anchors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Architecture -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Architecture">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Artists -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Artists">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Athelets -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Athelets">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Bands -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Bands">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Banking -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Banking">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Business -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Business">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Businessmen -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Businessmen">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cartoonists -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cartoonists">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Charity_supports -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Charity_supports">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Christianity -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Christianity">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Comedians -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Comedians">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Critics -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Critics">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cultural_figures -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cultural_figures">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Diplomates -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Diplomates">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Directors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Directors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Doctors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Doctors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Economics -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Economics">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Editors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Editors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Enterpreneurs -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Enterpreneurs">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Goverment_officials -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Goverment_officials">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Historians -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Historians">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Islam -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Islam">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Journalists -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Journalists">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Law -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Law">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Media -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Media">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ministers -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ministers">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Model -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Model"/>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Novelists -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Novelists">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Poets -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Poets">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Prime_ministers -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Prime_ministers">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Professors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Professors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Public_figures -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Public_figures">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Religious_figures -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Religious_figures">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Reporters -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Reporters">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Representatives -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Representatives">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Science -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Science">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Scientests -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Scientests">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Actors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ambassadors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Anchors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Architecture"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Artists"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Athelets"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Bands"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Banking"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Businessmen"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Cartoonists"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Charity_supports"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Christianity"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Comedians"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Critics"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Diplomates"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Directors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Doctors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Economics"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Editors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Enterpreneurs"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Historians"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Islam"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Journalists"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Law"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Ministers"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Novelists"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Poets"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Prime_ministers"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Professors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Reporters"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Representatives"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Scientests"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Singer_musicians"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Stage_and_screen"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Writers"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#innovators"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#instructors"/>
+            <rdf:Description rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#intellectual"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Singer_musicians -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Singer_musicians">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sports -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sports">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Stage_and_screen -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Stage_and_screen">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Writers -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Writers">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#innovators -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#innovators">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#instructors -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#instructors">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#intellectual -->
+
+    <owl:Class rdf:about="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#intellectual">
+        <rdfs:subClassOf rdf:resource="https://github.com/layaliZidan/models-ontology/blob/master/models-ontology.owl#Sector"/>
+    </owl:Class>
+</rdf:RDF>
 
